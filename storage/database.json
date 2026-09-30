@@ -1,0 +1,100 @@
+{
+  "files": {
+    "demo": {
+      "id": "demo",
+      "filename": "Panduan_Penggunaan_QRCraft_Studio.pdf",
+      "originalName": "Panduan_Penggunaan_QRCraft_Studio.pdf",
+      "size": 2457600,
+      "formattedSize": "2.4 MB",
+      "mimetype": "application/pdf",
+      "uploadedAt": "2026-09-30T09:00:00.000Z",
+      "directUrl": "/assets/pdf.svg",
+      "publicUrl": "/f/demo",
+      "downloadUrl": "/assets/pdf.svg"
+    }
+  },
+  "images": {
+    "demo": {
+      "id": "demo",
+      "filename": "QRCraft_Brand_Mockup.png",
+      "originalName": "QRCraft_Brand_Mockup.png",
+      "size": 1843200,
+      "formattedSize": "1.8 MB",
+      "mimetype": "image/png",
+      "uploadedAt": "2026-09-30T09:00:00.000Z",
+      "directUrl": "/assets/qrcraft_logo.svg",
+      "viewerUrl": "/img/demo",
+      "downloadUrl": "/assets/qrcraft_logo.svg"
+    },
+    "510343-munkmumr-v4x0": {
+      "id": "510343-munkmumr-v4x0",
+      "filename": "510343-munkmumr-v4x0.jpg",
+      "originalName": "510343.jpg",
+      "size": 823654,
+      "formattedSize": "804.3 KB",
+      "mimetype": "image/jpeg",
+      "uploadedAt": "2026-09-30T03:54:24.221Z",
+      "directUrl": "http://192.168.1.73:3000/storage/images/510343-munkmumr-v4x0.jpg",
+      "viewerUrl": "http://192.168.1.73:3000/img/510343-munkmumr-v4x0",
+      "downloadUrl": "http://192.168.1.73:3000/download-img/510343-munkmumr-v4x0.jpg"
+    }
+  },
+  "shortUrls": {
+    "craft": {
+      "code": "craft",
+      "originalUrl": "https://qrcraft.app",
+      "shortUrl": "/s/craft",
+      "createdAt": "2026-09-30T09:00:00.000Z",
+      "clicks": 142
+    },
+    "oprect-ormawa": {
+      "code": "oprect-ormawa",
+      "originalUrl": "https://xxxxjjsshss.com",
+      "shortUrl": "http://localhost:3000/s/oprect-ormawa",
+      "createdAt": "2026-09-30T03:05:19.191Z",
+      "clicks": 1
+    },
+    "oprect-bem26": {
+      "code": "oprect-bem26",
+      "originalUrl": "https://forms.gle/D8KeQVL93CEBnMY18",
+      "shortUrl": "http://192.168.1.73:3000/s/oprect-bem26",
+      "createdAt": "2026-09-30T03:52:24.983Z",
+      "clicks": 1
+    },
+    "r0c63": {
+      "code": "r0c63",
+      "originalUrl": "http://192.168.1.73:3000/s/oprect-bem26",
+      "shortUrl": "http://192.168.1.73:3000/s/r0c63",
+      "createdAt": "2026-09-30T03:56:18.799Z",
+      "clicks": 0
+    },
+    "oprectbem26": {
+      "code": "oprectbem26",
+      "originalUrl": "http://qr/s/oprectbem26",
+      "shortUrl": "http://192.168.1.73:3000/s/oprectbem26",
+      "createdAt": "2026-09-30T04:01:13.473Z",
+      "clicks": 1
+    },
+    "apa-hayu": {
+      "code": "apa-hayu",
+      "originalUrl": "https://google.com",
+      "shortUrl": "http://192.168.1.73:3000/s/apa-hayu",
+      "createdAt": "2026-09-30T04:07:43.622Z",
+      "clicks": 1
+    },
+    "lqia0": {
+      "code": "lqia0",
+      "originalUrl": "http://192.168.1.73:3000/s/apa-hayu",
+      "shortUrl": "http://192.168.1.73:3000/s/lqia0",
+      "createdAt": "2026-09-30T04:08:17.916Z",
+      "clicks": 0
+    },
+    "xrgzg": {
+      "code": "xrgzg",
+      "originalUrl": "http://192.168.1.73:3000/s/lqia0",
+      "shortUrl": "http://192.168.1.73:3000/s/xrgzg",
+      "createdAt": "2026-09-30T04:08:20.169Z",
+      "clicks": 0
+    }
+  }
+}
