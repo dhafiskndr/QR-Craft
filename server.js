@@ -12,13 +12,13 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('/storage/uploads', express.static(path.join(__dirname, 'storage/uploads')));
-app.use('/storage/images', express.static(path.join(__dirname, 'storage/images')));
+const isVercel = process.env.VERCEL;
+const uploadDir = isVercel ? '/tmp/uploads' : path.join(__dirname, 'storage/uploads');
+const imageDir = isVercel ? '/tmp/images' : path.join(__dirname, 'storage/images');
+const dataFilePath = isVercel ? '/tmp/database.json' : path.join(__dirname, 'storage/database.json');
 
-// Ensure directories exist
-const uploadDir = path.join(__dirname, 'storage/uploads');
-const imageDir = path.join(__dirname, 'storage/images');
-const dataFilePath = path.join(__dirname, 'storage/database.json');
+app.use('/storage/uploads', express.static(uploadDir));
+app.use('/storage/images', express.static(imageDir));
 
 if (!fs.existsSync(uploadDir)) fs.mkdirSync(uploadDir, { recursive: true });
 if (!fs.existsSync(imageDir)) fs.mkdirSync(imageDir, { recursive: true });
@@ -550,9 +550,13 @@ app.use((err, req, res, next) => {
 });
 
 // Start server
-app.listen(PORT, () => {
-  console.log(`===============================================`);
-  console.log(`🚀 QR-Craft Server running on http://localhost:${PORT}`);
-  console.log(`✨ System: QR-Craft Professional Studio`);
-  console.log(`===============================================`);
-});
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`===============================================`);
+    console.log(`🚀 QR-Craft Server running on http://localhost:${PORT}`);
+    console.log(`✨ System: QR-Craft Professional Studio`);
+    console.log(`===============================================`);
+  });
+}
+
+module.exports = app;
